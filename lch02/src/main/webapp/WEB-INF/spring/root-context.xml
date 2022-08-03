@@ -15,8 +15,8 @@
 		<property name="driverClassName"
 			value="com.mysql.jdbc.Driver"></property>
 		<property name="url"
-			value="jdbc:mysql://localhost:3306/springframework?characterEncoding=utf8&amp;useSSL=false"></property>
-		<property name="username" value="root"></property>
+			value="jdbc:oracle:thin://localhost:1521:XE"></property>
+		<property name="username" value="sys as sysdba"></property>
 		<property name="password" value="Ejrxndj11!"></property>
 </bean>	
 <bean id="sqlSessionFactory"
